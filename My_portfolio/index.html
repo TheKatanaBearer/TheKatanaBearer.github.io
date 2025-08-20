@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamza Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      Hamza <i data-lucide="shield"></i>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="toggle-btn"><i data-lucide="moon" id="modeIcon"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-left" id="encrypted-text"></div>
+    <div class="hero-sub" id="sub-text"></div>
+    <a href="resume_portfolio.pdf" download class="download-resume" id="resume-link">
+      Download My Resume
+    </a>
+    <div id="security-quote"></div>
+    <div class="hero-image"></div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education-section">
+    <h2 class="education-title">My Educational Journey</h2>
+    <div class="timeline">
+      <div class="timeline-event">
+        <div class="dot"></div>
+        <div class="event-content">
+          <h3>2020</h3>
+          <p>Matric with A+ grade from APS Ordnance Road Rawalpindi</p>
+        </div>
+      </div>
+      <div class="timeline-event">
+        <div class="dot"></div>
+        <div class="event-content">
+          <h3>2021-2023</h3>
+          <p>ICS (Physics, Maths and Computer Science) from Garrison College for Boys Lahore</p>
+        </div>
+      </div>
+      <div class="timeline-event">
+        <div class="dot"></div>
+        <div class="event-content">
+          <h3>2023-</h3>
+          <p>Started my Bachelors in Computer Science...so far so good</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="education-section">
+    <h2 class="education-title">My Certifications</h2>
+    <div class="certificates-grid">
+      <div class="certificate">
+        <img src="certificates/cert1.png" alt="Introduction to Networking - Nvidia">
+        <p>Nvidia - Introduction to Networking</p>
+      </div>
+      <div class="certificate">
+        <img src="certificates/cert2.png" alt="The Structured Query Language - University of Colorado Boulder">
+        <p>University of Colorado Boulder - The Structured Query Language</p>
+      </div>
+      <div class="certificate">
+        <img src="certificates/cert3.png" alt="Foundations of Cybersecurity - Google">
+        <p>Google - Foundations of Cybersecurity</p>
+      </div>
+      <div class="certificate">
+        <img src="certificates/cert4.png" alt="Python for Data Science, AI and Development - IBM">
+        <p>IBM - Python for Data Science, AI and Development</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="education-section">
+    <h2 class="education-title">My Skills & Tools</h2>
+    <div class="skills-container">
+      <div class="skill">Wireshark</div>
+      <div class="skill">Nmap</div>
+      <div class="skill">Metasploit</div>
+      <div class="skill">Burp Suite</div>
+      <div class="skill">Snort</div>
+      <div class="skill">Zeek</div>
+      <div class="skill">Kali Linux</div>
+      <div class="skill">Linux Terminal</div>
+      <div class="skill">John the Ripper</div>
+      <div class="skill">OpenVAS</div>
+      <div class="skill">ELK Stack</div>
+      <div class="skill">Volatility</div>
+      <div class="skill">Ghidra</div>
+      <div class="skill">x64dbg</div>
+      <div class="skill">Python</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="education-section">
+    <h2 class="education-title">Contact & Profile</h2>
+    <div class="contact-card">
+      <div class="contact-left">
+        REACH OUT TO ME, DEFENDER!
+      </div>
+      <div class="contact-right">
+        <p>📞 +923315511867</p>
+        <p>✉️ hamzakhattak188@gmail.com</p>
+        <p>🔗 <a href="https://www.linkedin.com/in/hamza-khan-tariq-51ab5a2a7" target="_blank">LinkedIn</a></p>
+        <p>🐙 <a href="https://github.com/TheKatanaBearer" target="_blank">GitHub</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
