@@ -58,7 +58,7 @@
       const lines = [
         "Name: Hamza Khan Tariq",
         "University: Quaid e Azam ( 5th semester )",
-        `Currently: Intern @ <img src="pta-logo.png" alt="PTA" style="height:2.6em; vertical-align:middle; margin-left:5px; filter: brightness(1.8);"> ( Cyber Wing )`
+        `Currently: Interning @ <img src="pta-logo.png" alt="PTA" style="height:2.6em; vertical-align:middle; margin-left:5px; filter: brightness(1.8);"> ( Cyber Wing )`
       ];
 
       let lineIdx = 0;
