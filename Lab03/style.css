@@ -1,0 +1,144 @@
+
+
+html{
+    padding:2%;
+    background: whitesmoke;
+}
+
+
+header{
+    
+    color:coral;
+
+}
+
+
+#Hamza{
+    color: blue;
+    font-size: 20px;
+
+}
+
+
+#Hamza:hover{
+    color: green;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+
+
+ li:first-child{
+    color: orange;
+}
+
+li:nth-child(2){
+    color: purple;
+}
+
+div ul{
+    background-color:whitesmoke;
+    font-size: 3em;
+}
+
+blockquote{
+
+    color: rgb(0, 255, 0);
+    font-style: italic;
+    font-size: 2.5 em;
+}
+
+
+footer a{
+text-decoration: solid;
+color:blueviolet;
+
+}
+
+
+footer a:hover{
+
+    color: purple;
+    font-size:1.5rem;
+}
+
+
+
+footer a:active{
+    color: red;
+}
+
+#about{
+    text-decoration: underline;
+    color: brown;
+    font-size: 1.5rem;
+}
+
+footer p::first-letter{
+    font-size:3rem;
+
+}
+
+
+.intro {
+
+    font-weight:bold;
+    font-size:2rem
+
+}
+
+.intro:hover{
+
+    color: goldenrod;   
+    cursor: pointer;
+    width:2.5rem;
+}
+
+article p img{
+
+width: 200px;
+
+}
+
+
+article p img:active{
+
+    height:20em;
+    max-width: 20em;
+    width:auto;
+}
+
+img[title*="handsome"]{
+
+    border-radius: 50%;
+    border:30px solid black;
+}
+
+address{
+
+    font-style: romans;
+    font-weight: solid;
+}
+
+.second-p{
+
+    font-size: 2rem;
+    font-weight: lighter;
+    color: grey;
+}
+
+
+.Me{
+
+    color: cadetblue;
+    font-size: 2rem;
+    
+}
+
+
+#About::first-letter{
+
+    color: blue; 
+
+}
