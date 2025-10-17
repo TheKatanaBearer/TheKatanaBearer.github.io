@@ -277,13 +277,13 @@ form{
 
 }
 
-input{
+.h{
     border-style: none;
     border-radius: 12px;
 
 }
 
-input:hover{
+.h:hover{
     transform: translateX(10%);
     transition: 1s;
     cursor: pointer;
@@ -346,4 +346,69 @@ select:hover {
      color: var(--bg);
 }
 
+#telephone{
+
+      border-style: none;
+    border-radius: 12px;
+
+}
+
+
+#telephone:hover{
+    transform: translateX(10%);
+    transition: 1s;
+    cursor: pointer;
+    width:50%;
+    background-color: var(--fg);
+    color: var(--bg);
+    
+}
+
+#things{
+       border-style: none;
+    border-radius: 12px;
+}
+
+#things:hover{
+      transform: translateX(10%);
+    transition: 1s;
+    cursor: pointer;
+    width:50%;
+    background-color: var(--fg);
+    color: var(--bg);
+
+}
+
+
+#file{
+      border-style: none;
+      background-color: var(--bg);
+      color: var(--fg);
+}
+
+#file:hover{
+       transform: translateX(10%);
+    transition: 1s;
+    cursor: pointer;
+    width:50%;
+    background-color: var(--fg);
+    color: var(--bg);
+}
+
+
+#age{
+    border-style: none;
+      background-color: var(--bg);
+      color: var(--fg);
+}
+
+#age:hover{
+
+       transform: translateX(10%);
+    transition: 1s;
+    cursor: pointer;
+    width:50%;
+    background-color: var(--fg);
+    color: var(--bg);
+}
 
