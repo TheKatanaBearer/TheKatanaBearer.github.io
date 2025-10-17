@@ -1,0 +1,349 @@
+
+
+html{
+   background:whitesmoke;
+   padding:2%;    /* used what we learnt in last class */      
+   font-family: "Segoe UI", sans-serif;  /* used what we learnt in last class */ 
+   
+  
+}
+
+:root{              /* used what we learnt in last class */
+    --fg:gold;
+    --bg:navy;
+}
+
+
+body{
+     border: 4px solid var(--bg);
+     border-radius: 20px;
+     padding:20px;
+     background-image:  linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),url("My official picture.jpg");
+     background-position: right;                                
+     background-repeat: no-repeat;  
+     background-size:cover;  
+
+     /* used what we learnt in last class */
+        
+
+
+
+}
+
+header{
+    color:var(--bg);
+
+    text-align: center;     /* used what we learnt in last class */ 
+    height:200px;
+    overflow: hidden;       /* used what we learnt in last class */ 
+}
+
+
+header h1{
+    font-size:2.5rem;
+    letter-spacing: 2px;        /* used what we learnt in last class */
+     text-shadow: 2px 2px 5px grey; 
+}
+
+header p{
+
+    color:var(--fg);
+    
+}
+
+h2{
+    color: var(--bg);
+    text-decoration:underline;
+}
+
+
+p{
+
+    font-size: 1.1rem;
+
+}
+
+#intro p:hover{
+    color:var(--fg);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 900;          /* used what we learnt in last class */
+
+}
+
+
+#skills li:nth-child(even) {
+
+    font-weight: bold;
+    text-decoration: line-through;       /* used what we learnt in last class */
+}
+
+
+#intro p{
+  margin:10px 0;        /* demonstrated collapsing margin here */
+                         /* used what we learnt in last class */
+}
+#contact ul{
+    list-style-type: square;         /* used what we learnt in last class */
+}
+
+#contact a{
+
+    text-decoration: none;
+    color: var(--bg);
+    
+}
+
+#contact a:hover{
+    color:var(--fg);
+    font-size:1.2rem;
+}
+
+#contact a:active{
+    color: purple;
+}
+
+footer p::first-letter{
+    font-size:2rem;
+}
+
+hr {
+    border: 3px dotted var(--bg);
+}
+
+#skills ul{
+    list-style-type: square;
+}
+
+
+#education table{
+    border: 4px solid var(--fg);
+    margin-left: 30%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    height:40px;
+
+
+
+}
+
+#education table td{
+    border: solid 3pt var(--bg);
+    padding: 10pt;
+    
+}
+
+#education table th{
+    border: solid 3pt var(--fg);
+    
+}
+
+#education table caption{
+    text-align: center;
+    color: var(--fg);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+
+}
+
+
+#certifications table{
+    border: 4px solid var(--fg);
+    margin-left: 30%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    height:40px;
+
+
+}
+
+#certifications table td{
+    border: solid 3pt var(--bg);
+    padding: 10pt;
+    
+}
+
+#certifications table th{
+    border: solid 3pt var(--fg);
+    
+}
+
+#certifications table caption{
+    text-align: center;
+    color: var(--fg);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+
+}   
+
+#intro{
+    margin-bottom: 40px;
+}
+
+#skills{
+    margin-bottom:40px;
+}
+
+#goals{
+    margin-bottom:40px;
+}
+
+#contact{
+    margin-bottom:40px;
+}
+
+tbody tr:nth-child(even) {
+   background-color: lightgray;
+ }
+
+tbody tr:hover{
+
+    background-color: goldenrod;
+    cursor: pointer;
+
+}
+
+header div{
+    
+    margin-left:80%;
+    height:30px;
+    
+    
+}
+
+header div a{
+    text-decoration: none;
+}
+
+
+header div a:hover{
+
+    font-size: larger;
+    transition:1s;
+    color: gold;
+}
+
+
+#grades table{
+    border: 4px solid var(--fg);
+    margin-left: 30%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    height:40px;
+
+
+}
+
+
+#grades table td{
+    border: solid 3pt var(--bg);
+    padding: 10pt;
+    
+}
+
+
+#grades table th{
+    border: solid 3pt var(--fg);
+    
+}
+
+#grades table caption{
+    text-align: center;
+    color: var(--fg);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+
+}   
+
+#grades tfoot tr{
+    text-align: center;
+}
+
+/* -----------------------------form styling from here----------------*/
+
+form{
+    width:100%;
+    margin: 40px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding:25px auto;
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+
+input{
+    border-style: none;
+    border-radius: 12px;
+
+}
+
+input:hover{
+    transform: translateX(10%);
+    transition: 1s;
+    cursor: pointer;
+    width:50%;
+    background-color: var(--fg);
+    color: var(--bg);
+    
+}
+
+button{
+    border-style: none;
+    height: 50px;
+    color:var(--bg);
+    font-weight: 600;
+    background-color: gold;
+    border-radius: 20px;
+}
+
+
+button:hover{
+    background-color: var(--bg);
+    color: var(--fg);
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+fieldset{
+    
+    padding:20px;
+    border: 3px solid var(--fg);
+    
+    
+}
+
+legend{
+     font-size: 1.4em;
+    font-weight: bold;  
+    color: var(--bg);
+
+}
+
+
+label{
+    font-weight: 600;
+}
+
+select{
+    border-style: none;
+    width: 20%;
+    border-radius: 12px;
+}
+
+select:hover {
+    width: 40%;
+    transform: translateX(10%);
+    transition: 1s;
+    cursor: pointer;
+    background-color: var(--fg);
+     color: var(--bg);
+}
+
+
